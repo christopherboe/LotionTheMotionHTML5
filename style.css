@@ -50,10 +50,8 @@
   100% {
     opacity: 0;
     top: 220px; } }
-* {
-  color: #ffffff; }
-
 #banner {
+  color: #ffffff;
   width: 180px;
   height: 600px;
   background-color: #29a8ce;
@@ -65,14 +63,28 @@
 .slide {
   position: fixed;
   width: 100%;
-  height: 521.73913px;
-  -webkit-animation: fadeIn 5s infinite;
+  height: 521.73913px; }
+
+#slide1 {
+  -webkit-animation: fadeIn 6s infinite;
   /* Safari 4+ */
-  -moz-animation: fadeIn 5s infinite;
+  -moz-animation: fadeIn 6s infinite;
   /* Fx 5+ */
-  -o-animation: fadeIn 5s infinite;
+  -o-animation: fadeIn 6s infinite;
   /* Opera 12+ */
-  animation: fadeIn 5s infinite;
+  animation: fadeIn 6s infinite;
   /* IE 10+, Fx 29+ */ }
+
+#slide2 {
+  -webkit-animation: fadeIn 6s infinite;
+  /* Safari 4+ */
+  -moz-animation: fadeIn 6s infinite;
+  /* Fx 5+ */
+  -o-animation: fadeIn 6s infinite;
+  /* Opera 12+ */
+  animation: fadeIn 6s infinite;
+  /* IE 10+, Fx 29+ */
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s; }
 
 /*# sourceMappingURL=style.css.map */
