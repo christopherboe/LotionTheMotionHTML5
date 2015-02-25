@@ -1,4 +1,78 @@
-body {
-  background-color: green; }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: -200px; }
+  25% {
+    opacity: 1;
+    top: 10px; }
+  75% {
+    opacity: 1;
+    top: 10px; }
+  100% {
+    opacity: 0;
+    top: 220px; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: -200px; }
+  25% {
+    opacity: 1;
+    top: 10px; }
+  75% {
+    opacity: 1;
+    top: 10px; }
+  100% {
+    opacity: 0;
+    top: 220px; } }
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: -200px; }
+  25% {
+    opacity: 1;
+    top: 10px; }
+  75% {
+    opacity: 1;
+    top: 10px; }
+  100% {
+    opacity: 0;
+    top: 220px; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: -200px; }
+  25% {
+    opacity: 1;
+    top: 10px; }
+  75% {
+    opacity: 1;
+    top: 10px; }
+  100% {
+    opacity: 0;
+    top: 220px; } }
+* {
+  color: #ffffff; }
+
+#banner {
+  width: 180px;
+  height: 600px;
+  background-color: #29a8ce;
+  background-image: url(images/bg.jpg);
+  padding: 10px;
+  border: 2px solid rgba(93, 93, 93, 0.5);
+  overflow: hidden; }
+
+.slide {
+  position: fixed;
+  width: 100%;
+  height: 521.73913px;
+  -webkit-animation: fadeIn 5s infinite;
+  /* Safari 4+ */
+  -moz-animation: fadeIn 5s infinite;
+  /* Fx 5+ */
+  -o-animation: fadeIn 5s infinite;
+  /* Opera 12+ */
+  animation: fadeIn 5s infinite;
+  /* IE 10+, Fx 29+ */ }
 
 /*# sourceMappingURL=style.css.map */

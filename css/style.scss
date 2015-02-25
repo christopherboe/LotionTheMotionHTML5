@@ -1,5 +1,62 @@
-$primaryColor1:green;
+///////ADJUST///////
+$backgroundColor:#29a8ce; $fontColor:#ffffff;
 
-body{
-    background-color:$primaryColor1;
+$bannerWidth:180px; $bannerHeight:600px;
+
+$backgroundImage:url(images/bg.jpg);
+
+
+
+
+//////ANIMATION///////
+
+@-webkit-keyframes fadeIn {
+    0%   { opacity: 0; top: -200px; }
+    25% { opacity: 1; top:10px; }
+    75% { opacity: 1; top:10px; }
+    100% { opacity: 0; top:220px; }
+}
+@-moz-keyframes fadeIn {
+    0%   { opacity: 0; top: -200px; }
+    25% { opacity: 1; top:10px; }
+    75% { opacity: 1; top:10px; }
+    100% { opacity: 0; top:220px; }
+}
+@-o-keyframes fadeIn {
+    0%   { opacity: 0; top: -200px; }
+    25% { opacity: 1; top:10px; }
+    75% { opacity: 1; top:10px; }
+    100% { opacity: 0; top:220px; }
+}
+@keyframes fadeIn {
+    0%   { opacity: 0; top: -200px; }
+    25% { opacity: 1; top:10px; }
+    75% { opacity: 1; top:10px; }
+    100% { opacity: 0; top:220px; }
+}
+
+//////LEAVE THIS ALONE//////
+*{
+    color: $fontColor;
+}
+
+#banner{
+    width:$bannerWidth;
+    height:$bannerHeight;
+    background-color: $backgroundColor;
+    background-image: $backgroundImage;
+    padding: 10px;
+    border: 2px solid rgba(93, 93, 93, 0.5);
+    overflow: hidden;    
+}
+
+
+.slide{
+    position: fixed;
+    width:100%;
+    height: 600px / 115px *100px;
+     -webkit-animation: fadeIn 5s infinite; /* Safari 4+ */
+  -moz-animation:    fadeIn 5s infinite; /* Fx 5+ */
+  -o-animation:      fadeIn 5s infinite; /* Opera 12+ */
+  animation:         fadeIn 5s infinite; /* IE 10+, Fx 29+ */
 }
