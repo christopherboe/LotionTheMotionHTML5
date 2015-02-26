@@ -1,35 +1,42 @@
 ///////ADJUST///////
 $backgroundColor:#29a8ce; $fontColor:#ffffff;
 
-$bannerWidth:180px; $bannerHeight:600px;
+$bannerWidth:550px; $bannerHeight:400px;
 
-$slideDuration:6s;
+$slideDuration:6s; $slideDelay:3s;
 
 $backgroundImage:url(images/bg.jpg);
 
 
 @import 'animation';
 
+*{
+    margin:0px;
+    padding:0px;
+}
 
 #banner{
     color: $fontColor;
-    width:$bannerWidth;
-    height:$bannerHeight;
+    width: $bannerWidth;
+    height: $bannerHeight;
     background-color: $backgroundColor;
     background-image: $backgroundImage;
-    padding: 10px;
-    border: 2px solid rgba(93, 93, 93, 0.5);
-    overflow: hidden;    
+    overflow: hidden;
+    position: static;
 }
 
 
 .slide{
-    position: fixed;
-    width:100%;
-    height: 600px / 115px *100px;
+    margin:5%;
+    width:90%;
+    height: 90%;
+    float: left;
 }
 
+
+
 #slide1{
+    opacity: 0;
      -webkit-animation: fadeIn $slideDuration infinite; /* Safari 4+ */
   -moz-animation:    fadeIn $slideDuration infinite; /* Fx 5+ */
   -o-animation:      fadeIn $slideDuration infinite; /* Opera 12+ */
@@ -37,10 +44,12 @@ $backgroundImage:url(images/bg.jpg);
 }
 
 #slide2{
+    opacity: 0;
+    
     -webkit-animation: fadeIn $slideDuration infinite; /* Safari 4+ */
     -moz-animation:    fadeIn $slideDuration infinite; /* Fx 5+ */
     -o-animation:      fadeIn $slideDuration infinite; /* Opera 12+ */
     animation:         fadeIn $slideDuration infinite;/* IE 10+, Fx 29+ */
-    -webkit-animation-delay: $slideDuration;
-    animation-delay: $slideDuration;
+    -webkit-animation-delay: $slideDelay;
+    animation-delay: $slideDelay;
 }
