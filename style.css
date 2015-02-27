@@ -2,12 +2,15 @@
   0% {
     opacity: 0;
     top: -200px; }
-  25% {
+  15% {
+    opcaity: 1;
+    top: 10px; }
+  50% {
     opacity: 1;
     top: 10px; }
-  75% {
-    opacity: 1;
-    top: 10px; }
+  65% {
+    opacity: 0;
+    top: 200px; }
   100% {
     opacity: 0;
     top: 220px; } }
@@ -15,12 +18,15 @@
   0% {
     opacity: 0;
     top: -200px; }
-  25% {
+  15% {
+    opcaity: 1;
+    top: 10px; }
+  50% {
     opacity: 1;
     top: 10px; }
-  75% {
-    opacity: 1;
-    top: 10px; }
+  65% {
+    opacity: 0;
+    top: 200px; }
   100% {
     opacity: 0;
     top: 220px; } }
@@ -28,12 +34,15 @@
   0% {
     opacity: 0;
     top: -200px; }
-  25% {
+  15% {
+    opcaity: 1;
+    top: 10px; }
+  50% {
     opacity: 1;
     top: 10px; }
-  75% {
-    opacity: 1;
-    top: 10px; }
+  65% {
+    opacity: 0;
+    top: 200px; }
   100% {
     opacity: 0;
     top: 220px; } }
@@ -41,12 +50,15 @@
   0% {
     opacity: 0;
     top: -200px; }
-  25% {
+  15% {
+    opcaity: 1;
+    top: 10px; }
+  50% {
     opacity: 1;
     top: 10px; }
-  75% {
-    opacity: 1;
-    top: 10px; }
+  65% {
+    opacity: 0;
+    top: 200px; }
   100% {
     opacity: 0;
     top: 220px; } }
@@ -58,39 +70,39 @@
   color: #ffffff;
   width: 550px;
   height: 400px;
-  background-color: #29a8ce;
+  background-color: #1dcb7b;
   background-image: url(images/bg.jpg);
-  overflow: hidden;
-  position: static; }
+  overflow: hidden; }
 
 .slide {
+  float: left;
   margin: 5%;
   width: 90%;
-  height: 90%;
-  float: left; }
+  height: 90%; }
 
 #slide1 {
-  opacity: 0;
-  -webkit-animation: fadeIn 6s infinite;
+  -webkit-animation: fadeIn 8s infinite;
   /* Safari 4+ */
-  -moz-animation: fadeIn 6s infinite;
+  -moz-animation: fadeIn 8s infinite;
   /* Fx 5+ */
-  -o-animation: fadeIn 6s infinite;
+  -o-animation: fadeIn 8s infinite;
   /* Opera 12+ */
-  animation: fadeIn 6s infinite;
-  /* IE 10+, Fx 29+ */ }
+  animation: fadeIn 8s infinite;
+  /* IE 10+, Fx 29+ */
+  float: left; }
 
 #slide2 {
+  float: left;
   opacity: 0;
-  -webkit-animation: fadeIn 6s infinite;
+  -webkit-animation: fadeIn 8s infinite;
   /* Safari 4+ */
-  -moz-animation: fadeIn 6s infinite;
+  -moz-animation: fadeIn 8s infinite;
   /* Fx 5+ */
-  -o-animation: fadeIn 6s infinite;
+  -o-animation: fadeIn 8s infinite;
   /* Opera 12+ */
-  animation: fadeIn 6s infinite;
+  animation: fadeIn 8s infinite;
   /* IE 10+, Fx 29+ */
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s; }
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s; }
 
 /*# sourceMappingURL=style.css.map */
