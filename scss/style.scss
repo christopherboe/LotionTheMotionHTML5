@@ -1,9 +1,9 @@
 ///////ADJUST///////
-$backgroundColor:#29a8ce; $fontColor:#ffffff;
+$backgroundColor:#1dcb7b; $fontColor:#ffffff;
 
 $bannerWidth:550px; $bannerHeight:400px;
 
-$slideDuration:6s; $slideDelay:3s;
+$slideDuration:8s; $slideDelay:5s;
 
 $backgroundImage:url(images/bg.jpg);
 
@@ -22,28 +22,28 @@ $backgroundImage:url(images/bg.jpg);
     background-color: $backgroundColor;
     background-image: $backgroundImage;
     overflow: hidden;
-    position: static;
 }
 
 
 .slide{
+    float: left;
     margin:5%;
     width:90%;
     height: 90%;
-    float: left;
 }
 
 
 
 #slide1{
-    opacity: 0;
      -webkit-animation: fadeIn $slideDuration infinite; /* Safari 4+ */
   -moz-animation:    fadeIn $slideDuration infinite; /* Fx 5+ */
   -o-animation:      fadeIn $slideDuration infinite; /* Opera 12+ */
   animation:         fadeIn $slideDuration infinite; /* IE 10+, Fx 29+ */
+    float: left;
 }
 
 #slide2{
+    float:left;
     opacity: 0;
     
     -webkit-animation: fadeIn $slideDuration infinite; /* Safari 4+ */

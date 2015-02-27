@@ -1,27 +1,23 @@
 //////ANIMATION///////
+@mixin fadeInValues(){
+    0%   { opacity: 0; top:-200px; }
+    15%  { opcaity: 1; top:10px; }
+    50%  { opacity: 1; top:10px; }
+    65%  { opacity: 0; top:200px; }
+    100% { opacity: 0; top:220px; }
+}
+
 
 @-webkit-keyframes fadeIn {
-    0%   { opacity: 0; top: -200px; }
-    25% { opacity: 1; top:10px; }
-    75% { opacity: 1; top:10px; }
-    100% { opacity: 0; top:220px; }
+    @include fadeInValues();
 }
 @-moz-keyframes fadeIn {
-    0%   { opacity: 0; top: -200px; }
-    25% { opacity: 1; top:10px; }
-    75% { opacity: 1; top:10px; }
-    100% { opacity: 0; top:220px; }
+    @include fadeInValues();
 }
 @-o-keyframes fadeIn {
-    0%   { opacity: 0; top: -200px; }
-    25% { opacity: 1; top:10px; }
-    75% { opacity: 1; top:10px; }
-    100% { opacity: 0; top:220px; }
+    @include fadeInValues();
 }
 @keyframes fadeIn {
-    0%   { opacity: 0; top: -200px; }
-    25% { opacity: 1; top:10px; }
-    75% { opacity: 1; top:10px; }
-    100% { opacity: 0; top:220px; }
+    @include fadeInValues();
 }
 
