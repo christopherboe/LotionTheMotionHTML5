@@ -1,7 +1,7 @@
 ///////ADJUST///////
 $backgroundColor:#1dcb7b; $fontColor:#ffffff;
 
-$bannerWidth:550px; $bannerHeight:400px;
+$bannerWidth:100%; $bannerHeight:400px;
 
 $slideDuration:8s; $slideDelay:5s;
 
@@ -9,6 +9,7 @@ $backgroundImage:url(images/bg.jpg);
 
 
 @import 'animation';
+@import 'juice';
 
 *{
     margin:0px;
@@ -22,11 +23,16 @@ $backgroundImage:url(images/bg.jpg);
     background-color: $backgroundColor;
     background-image: $backgroundImage;
     overflow: hidden;
+    @include bp(200px, 300px){
+        background-color: red;
+    }
 }
 
 
 .slide{
-    float: left;
+    position: relative;
+    top:0px;
+    left:0px;
     margin:5%;
     width:90%;
     height: 90%;
