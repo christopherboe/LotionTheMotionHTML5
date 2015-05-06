@@ -3,7 +3,7 @@
     opacity: 0;
     top: -200px; }
   15% {
-    opcaity: 1;
+    opcaity: 0.9;
     top: 10px; }
   50% {
     opacity: 1;
@@ -19,7 +19,7 @@
     opacity: 0;
     top: -200px; }
   15% {
-    opcaity: 1;
+    opcaity: 0.9;
     top: 10px; }
   50% {
     opacity: 1;
@@ -35,7 +35,7 @@
     opacity: 0;
     top: -200px; }
   15% {
-    opcaity: 1;
+    opcaity: 0.9;
     top: 10px; }
   50% {
     opacity: 1;
@@ -51,7 +51,7 @@
     opacity: 0;
     top: -200px; }
   15% {
-    opcaity: 1;
+    opcaity: 0.9;
     top: 10px; }
   50% {
     opacity: 1;
@@ -75,7 +75,12 @@
   overflow: hidden; }
   @media screen and (min-width: 200px) and (max-width: 300px) {
     #banner {
-      background-color: red; } }
+      background-color: red;
+      background-image: url(http://www.placekitten.com/g/1920/1080); } }
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    #banner {
+      background-color: red;
+      background-image: url(http://www.placekitten.com/g/600/400); } }
 
 .slide {
   position: relative;

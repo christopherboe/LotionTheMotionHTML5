@@ -25,6 +25,11 @@ $backgroundImage:url(images/bg.jpg);
     overflow: hidden;
     @include bp(200px, 300px){
         background-color: red;
+        background-image: url(http://www.placekitten.com/g/1920/1080)
+    }
+    @include bp(300px, 600px){
+        background-color: red;
+        background-image: url(http://www.placekitten.com/g/600/400)
     }
 }
 

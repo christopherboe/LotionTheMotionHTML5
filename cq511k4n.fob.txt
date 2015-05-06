@@ -1,0 +1,16 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .sass-cache/044afef9a810e32ef2a1a6ccedf6c1c3590d8f3a/animation.scssc
+#	modified:   .sass-cache/044afef9a810e32ef2a1a6ccedf6c1c3590d8f3a/style.scssc
+#	modified:   index.html
+#	modified:   scss/animation.scss
+#	modified:   scss/style.scss
+#	modified:   style.css
+#	modified:   style.css.map
+#
+

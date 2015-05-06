@@ -1,7 +1,7 @@
 //////ANIMATION///////
 @mixin fadeInValues(){
     0%   { opacity: 0; top:-200px; }
-    15%  { opcaity: 1; top:10px; }
+    15%  { opcaity: 0.9; top:10px; }
     50%  { opacity: 1; top:10px; }
     65%  { opacity: 0; top:200px; }
     100% { opacity: 0; top:220px; }
